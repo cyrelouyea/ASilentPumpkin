@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/insert_eye.mp3-95241b17db7b7a003b87dc6cb51e88a9.mp3str"
+
+[deps]
+
+source_file="res://sounds/insert_eye.mp3"
+dest_files=[ "res://.import/insert_eye.mp3-95241b17db7b7a003b87dc6cb51e88a9.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

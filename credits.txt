@@ -1,0 +1,16 @@
+Made with Godot Engine:
+https://godotengine.org (license: https://godotengine.org/license)
+
+Main character sprites art derived from Pumpiino's VTuber avatar: 
+https://twitter.com/Pumpiino
+
+Sound Effect from freesound.org:
+https://freesound.org/people/hear-no-elvis/sounds/329320/ (cc0)
+https://freesound.org/people/Kingcornz/sounds/342129/ (cc0)
+https://freesound.org/people/NachtmahrTV/sounds/571797/ (cc0)
+https://freesound.org/people/GreekIrish/sounds/254713/ (cc0)
+https://freesound.org/people/_nuel/sounds/54973/ (cc0)
+https://freesound.org/people/JanKoehl/sounds/85604/ (cc by 3.0)
+https://freesound.org/people/Mixedupmoviestuff/sounds/179222/ (cc0)
+https://freesound.org/people/BinaryMonkFlint/sounds/333296/ (cc0)
+https://freesound.org/people/InspectorJ/sounds/431117/ (cc by 3.0)

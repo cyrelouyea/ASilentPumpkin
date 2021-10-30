@@ -1,0 +1,26 @@
+[gd_scene load_steps=12 format=2]
+
+[ext_resource path="res://Scenes/StageOne.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scenes/StageTwo.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Scripts/GameManager.gd" type="Script" id=3]
+[ext_resource path="res://Textures/eyeball-2.png" type="Texture" id=4]
+[ext_resource path="res://Textures/eyeball-spe.png" type="Texture" id=5]
+[ext_resource path="res://Scenes/StageThree.tscn" type="PackedScene" id=6]
+[ext_resource path="res://Textures/eyeball-green.png" type="Texture" id=7]
+[ext_resource path="res://Scenes/StageFinal.tscn" type="PackedScene" id=8]
+[ext_resource path="res://Textures/eyeball-purple-1.png" type="Texture" id=9]
+[ext_resource path="res://Scenes/StageEnd.tscn" type="PackedScene" id=10]
+[ext_resource path="res://Scenes/TheEnd.tscn" type="PackedScene" id=11]
+
+[node name="GameManager" type="Node2D"]
+script = ExtResource( 3 )
+item_textures = [ ExtResource( 4 ), ExtResource( 5 ), ExtResource( 7 ), ExtResource( 9 ) ]
+map_name_to_texture = [ "eyeball_blue", "eyeball_red", "eyeball_green", "eyeball_purple" ]
+stages = [ ExtResource( 1 ), ExtResource( 2 ), ExtResource( 6 ), ExtResource( 8 ), ExtResource( 10 ), ExtResource( 11 ) ]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Inventory" type="Node2D" parent="CanvasLayer"]
+position = Vector2( 10, 270 )
+
+[node name="Item" type="Sprite" parent="CanvasLayer/Inventory"]
